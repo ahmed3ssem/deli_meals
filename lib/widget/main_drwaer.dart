@@ -1,13 +1,14 @@
+import 'package:deli_meals/screens/setting_screen.dart';
 import 'package:flutter/material.dart';
 
 class MainDrawer extends StatelessWidget {
 
-  Widget buildListTitle(String title , IconData icon)
+  Widget buildListTitle(String title , IconData icon, Function tahHandler)
   {
     return ListTile(
       leading: Icon(icon,size: 26,),
       title: Text(title,style: TextStyle(fontFamily: 'RobotoCondensed',fontSize: 24,fontWeight: FontWeight.bold),),
-      onTap: (){},
+      onTap: tahHandler,
     );
   }
 
@@ -27,8 +28,8 @@ class MainDrawer extends StatelessWidget {
           SizedBox(
             height: 20,
           ),
-          buildListTitle("Meals", Icons.restaurant),
-          buildListTitle("Settings", Icons.settings),
+          buildListTitle("Meals", Icons.restaurant,()=>Navigator.of(context).pushNamed('/')),
+          buildListTitle("Settings", Icons.settings,()=>Navigator.of(context).push(MaterialPageRoute(builder: (_){return SettingsScreen();}))),
         ],
       ),
     );
