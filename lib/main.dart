@@ -1,3 +1,4 @@
+import 'package:deli_meals/screens/tabs_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'screens/categories_screen.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
           title: TextStyle(fontSize: 20,fontFamily: 'RobotoCondensed',fontWeight: FontWeight.bold)
         ),
       ),
-      home: CategoriesScreen(),
+      home: TabsScreen(),
     );
   }
 }
