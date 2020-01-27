@@ -28,8 +28,8 @@ class MainDrawer extends StatelessWidget {
           SizedBox(
             height: 20,
           ),
-          buildListTitle("Meals", Icons.restaurant,()=>Navigator.of(context).pushNamed('/')),
-          buildListTitle("Settings", Icons.settings,()=>Navigator.of(context).push(MaterialPageRoute(builder: (_){return SettingsScreen();}))),
+          buildListTitle("Meals", Icons.restaurant,()=>Navigator.of(context).pushReplacementNamed('/')),
+          buildListTitle("Settings", Icons.settings,()=>Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_){return SettingsScreen();}))),
         ],
       ),
     );
