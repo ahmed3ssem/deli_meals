@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import './models/category.dart';
-import 'models/meal.dart';
+import './models/meal.dart';
 
 const DUMMY_CATEGORIES = const [
   Category(
@@ -57,7 +57,6 @@ const DUMMY_CATEGORIES = const [
 ];
 
 const DUMMY_MEALS = const [
-
   Meal(
     id: 'm1',
     categories: [
@@ -68,7 +67,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
     duration: 20,
     ingredients: [
       '4 Tomatoes',
@@ -92,7 +91,6 @@ const DUMMY_MEALS = const [
     isVegetarian: true,
     isLactoseFree: true,
   ),
-
   Meal(
     id: 'm2',
     categories: [
@@ -102,7 +100,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-    'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
     duration: 10,
     ingredients: [
       '1 Slice White Bread',
@@ -114,7 +112,7 @@ const DUMMY_MEALS = const [
     steps: [
       'Butter one side of the white bread',
       'Layer ham, the pineapple and cheese on the white bread',
-      'Bake the toast for round about 10 minutes in the oven at 200Â°C'
+      'Bake the toast for round about 10 minutes in the oven at 200°C'
     ],
     isGlutenFree: false,
     isVegan: false,
@@ -131,7 +129,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Pricey,
     complexity: Complexity.Simple,
     imageUrl:
-    'https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054_1280.jpg',
+        'https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054_1280.jpg',
     duration: 45,
     ingredients: [
       '300g Cattle Hack',
@@ -162,7 +160,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Luxurious,
     complexity: Complexity.Challenging,
     imageUrl:
-    'https://cdn.pixabay.com/photo/2018/03/31/19/29/schnitzel-3279045_1280.jpg',
+        'https://cdn.pixabay.com/photo/2018/03/31/19/29/schnitzel-3279045_1280.jpg',
     duration: 60,
     ingredients: [
       '8 Veal Cutlets',
@@ -175,11 +173,11 @@ const DUMMY_MEALS = const [
       'Lemon Slices'
     ],
     steps: [
-      'Tenderize the veal to about 2â€“4mm, and salt on both sides.',
+      'Tenderize the veal to about 2–4mm, and salt on both sides.',
       'On a flat plate, stir the eggs briefly with a fork.',
       'Lightly coat the cutlets in flour then dip into the egg, and finally, coat in breadcrumbs.',
       'Heat the butter and oil in a large pan (allow the fat to get very hot) and fry the schnitzels until golden brown on both sides.',
-      'Make sure to toss the pan regularly so that the schnitzels are surrounded by oil and the crumbing becomes â€˜fluffyâ€™.',
+      'Make sure to toss the pan regularly so that the schnitzels are surrounded by oil and the crumbing becomes ‘fluffy’.',
       'Remove, and drain on kitchen paper. Fry the parsley in the remaining oil and drain.',
       'Place the schnitzels on awarmed plate and serve garnishedwith parsley and slices of lemon.'
     ],
@@ -199,7 +197,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-    'https://cdn.pixabay.com/photo/2016/10/25/13/29/smoked-salmon-salad-1768890_1280.jpg',
+        'https://cdn.pixabay.com/photo/2016/10/25/13/29/smoked-salmon-salad-1768890_1280.jpg',
     duration: 15,
     ingredients: [
       'Arugula',
@@ -234,7 +232,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
     imageUrl:
-    'https://cdn.pixabay.com/photo/2017/05/01/05/18/pastry-2274750_1280.jpg',
+        'https://cdn.pixabay.com/photo/2017/05/01/05/18/pastry-2274750_1280.jpg',
     duration: 240,
     ingredients: [
       '4 Sheets of Gelatine',
@@ -269,7 +267,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-    'https://cdn.pixabay.com/photo/2018/07/10/21/23/pancake-3529653_1280.jpg',
+        'https://cdn.pixabay.com/photo/2018/07/10/21/23/pancake-3529653_1280.jpg',
     duration: 20,
     ingredients: [
       '1 1/2 Cups all-purpose Flour',
@@ -300,7 +298,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Pricey,
     complexity: Complexity.Challenging,
     imageUrl:
-    'https://cdn.pixabay.com/photo/2018/06/18/16/05/indian-food-3482749_1280.jpg',
+        'https://cdn.pixabay.com/photo/2018/06/18/16/05/indian-food-3482749_1280.jpg',
     duration: 35,
     ingredients: [
       '4 Chicken Breasts',
@@ -313,7 +311,7 @@ const DUMMY_MEALS = const [
     ],
     steps: [
       'Slice and fry the chicken breast',
-      'Process onion, garlic and ginger into paste and sautÃ© everything',
+      'Process onion, garlic and ginger into paste and sauté everything',
       'Add spices and stir fry',
       'Add chicken breast + 250ml of water and cook everything for 10 minutes',
       'Add coconut milk',
@@ -333,7 +331,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
     imageUrl:
-    'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
+        'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
     duration: 45,
     ingredients: [
       '1 Teaspoon melted Butter',
@@ -350,7 +348,7 @@ const DUMMY_MEALS = const [
       '1 Tablespoon white Sugar',
     ],
     steps: [
-      'Preheat oven to 190Â°C. Line a rimmed baking sheet with parchment paper.',
+      'Preheat oven to 190°C. Line a rimmed baking sheet with parchment paper.',
       'Brush bottom and sides of 2 ramekins lightly with 1 teaspoon melted butter; cover bottom and sides right up to the rim.',
       'Add 1 tablespoon white sugar to ramekins. Rotate ramekins until sugar coats all surfaces.',
       'Place chocolate pieces in a metal mixing bowl.',
@@ -384,7 +382,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-    'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
     duration: 30,
     ingredients: [
       'White and Green Asparagus',
